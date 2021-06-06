@@ -1,4 +1,4 @@
-#!/bin/bash
+t#!/bin/bash
 
 # This script will use the OpenSCAP scanner to scan your
 # system with the chosen profile
@@ -25,11 +25,11 @@ clear
 while true
 do
     echo " "
-    echo "*****************************************"
-    echo "#                                       #"
-    echo "#          Welcome to OpenSCAP          #"
-    echo "#                                       #"
-    echo "*****************************************"
+    echo -e "\t*****************************************"
+    echo -e "\t#                                       #"
+    echo -e "\t#          Welcome to OpenSCAP          #"
+    echo -e "\t#                                       #"
+    echo -e "\t*****************************************"
     echo " "
     
     echo -e "Please choose a profile to use: \n"
